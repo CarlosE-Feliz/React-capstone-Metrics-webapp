@@ -31,6 +31,18 @@ a {
   color: rgb(112, 76, 182);
 }
 
+.items {
+  margin: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  grid-row-gap: 60px;
+  grid-column-gap: 5px;
+}
+
 @keyframes App-logo-float {
   0% {
     transform: translateY(0);
