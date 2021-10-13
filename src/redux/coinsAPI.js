@@ -28,6 +28,11 @@ export const getCoin = () => (dispatch) => {
           name: item.id,
           symbol: item.symbol,
           id: item.rank,
+          price: item.priceUsd,
+          max: item.maxSupply,
+          change: item.changePercent24Hr,
+          volume: item.volumeUsd24Hr,
+          market: item.marketCapUsd,
           clicked: false,
         };
         newData.push(data);
