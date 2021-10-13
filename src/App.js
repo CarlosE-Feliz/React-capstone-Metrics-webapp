@@ -16,7 +16,6 @@ import { getCoin } from './redux/coinsAPI';
 function App() {
   const dispatch = useDispatch();
   const loadCoinsAction = bindActionCreators(getCoin, dispatch);
-
   useEffect(() => {
     loadCoinsAction();
   });
@@ -24,9 +23,7 @@ function App() {
     <>
       <Router>
         <div>
-          <nav>
-            <NavBar />
-          </nav>
+          <NavBar />
           <Switch>
             <Route path="/Home">
               <Home />
