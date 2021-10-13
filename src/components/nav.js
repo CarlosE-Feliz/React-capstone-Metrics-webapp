@@ -5,10 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavBar = () => (
   <>
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand>
-        <Items />
-      </Navbar.Brand>
+    <Navbar style={{ backgroundColor: '#ec4c8b' }}>
+      <Items />
     </Navbar>
   </>
 

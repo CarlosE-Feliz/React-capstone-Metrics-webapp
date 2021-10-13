@@ -6,7 +6,6 @@ import {
   Route,
 } from 'react-router-dom';
 import { bindActionCreators } from 'redux';
-// import logo from './logo.svg';
 import './App.css';
 import Details from './components/Details';
 import Home from './components/Home';
@@ -18,7 +17,7 @@ function App() {
   const loadCoinsAction = bindActionCreators(getCoin, dispatch);
   useEffect(() => {
     loadCoinsAction();
-  });
+  }, []);
   return (
     <>
       <Router>
