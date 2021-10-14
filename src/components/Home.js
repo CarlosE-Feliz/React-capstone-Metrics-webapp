@@ -24,7 +24,7 @@ const Home = () => {
       {
           data.map((item) => (
             <NavLink
-              style={{ textDecoration: 'none', color: 'black' }}
+              style={{ textDecoration: 'none' }}
               className="items"
               key={item.name}
               name={item.name}

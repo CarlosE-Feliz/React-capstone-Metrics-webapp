@@ -1,12 +1,9 @@
-/* eslint-disable no-console */
 const axios = require('axios');
 
-function getCoins() {
+const getCoins = () => {
   axios.get('https://api.coincap.io/v2/assets?limit=1')
-    .then((response) => console.log(response.data))
-    .catch((error) => console.log(error));
-}
-
-getCoins();
+    .then((response) => response.data)
+    .catch((error) => error);
+};
 
 module.exports = { getCoins };
