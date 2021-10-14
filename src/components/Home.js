@@ -25,12 +25,13 @@ const Home = () => {
           data.map((item) => (
             <NavLink
               style={{ textDecoration: 'none', color: 'black' }}
+              className="items"
               key={item.name}
               name={item.name}
               id={item.id}
               to="/Details"
             >
-              <div className="items" key={item.id} id={item.id}>
+              <div key={item.id} id={item.id}>
                 <Card.Content id={item.id}>
                   <Card.Header
                     id={item.id}
