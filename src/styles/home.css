@@ -7,10 +7,10 @@
 }
 
 #dropdown-basic {
-  background-color:rgb(236, 76, 139);
-  border-color:rgb(236, 76, 139);
+  background-color: rgb(236, 76, 139);
+  border-color: rgb(236, 76, 139);
 }
 
 #dropdown-basic:focus {
-  box-shadow:0 0 0 0.25rem rgba(236, 76, 140, 0.829);
+  box-shadow: 0 0 0 0.25rem rgba(236, 76, 140, 0.829);
 }
