@@ -1,16 +1,11 @@
 import React from 'react';
-import { ItemsNav, SearchIcon, Title } from '../styles/stylesNav';
+import { ItemsNav, Title } from '../styles/stylesNav';
 
 const Items = () => (
   <ItemsNav>
     <Title>
-      Coins
+      Crypto Values
     </Title>
-
-    <SearchIcon>
-      search icon
-    </SearchIcon>
-
   </ItemsNav>
 );
 

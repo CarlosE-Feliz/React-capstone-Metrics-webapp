@@ -1,10 +1,15 @@
+#root {
+  background: #df4784ce;
+  color: aliceblue;
+}
+
 .App {
   text-align: center;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: aliceblue;
 }
 
 .App-logo {
@@ -12,35 +17,18 @@ a {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
 .items {
-  margin: 15px;
+  margin: 25px;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  gap: 20px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px;
-  grid-row-gap: 60px;
-  grid-column-gap: 5px;
+  grid-row-gap: 40px;
 }
 
 @keyframes App-logo-float {

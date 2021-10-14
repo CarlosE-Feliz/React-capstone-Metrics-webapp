@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import axios from 'axios';
 
 const GET_COINS = 'GET_COINS';
@@ -22,7 +21,6 @@ export const getCoin = () => (dispatch) => {
     .then((res) => {
       const newData = [];
       const allCoins = res.data.data;
-      console.log(allCoins);
       allCoins.forEach((item) => {
         const data = {
           name: item.id,
@@ -33,6 +31,7 @@ export const getCoin = () => (dispatch) => {
           change: item.changePercent24Hr,
           volume: item.volumeUsd24Hr,
           market: item.marketCapUsd,
+          explore: item.explorer,
           clicked: false,
         };
         newData.push(data);
@@ -49,7 +48,7 @@ export const getOneCoin = (currentState, name) => (dispatch) => {
     if (coin.id !== name) {
       return { ...coin, clicked: false };
     }
-    return { ...coin, clicked: !coin.clicked };
+    return { ...coin, clicked: coin.clicked === false ? !coin.clicked : coin.clicked };
   });
   dispatch({
     type: GET_ONE_COIN,
