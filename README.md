@@ -1,6 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## CrytoApp Capstone
 
-## Available Scripts
+#
+[](https://www.loom.com/share/543ac196b513484cbdd08dfb41853dbb)
+![image](https://user-images.githubusercontent.com/74747182/137229396-2b361627-c735-43aa-8da6-0f4835840336.png)
+![image](https://user-images.githubusercontent.com/74747182/137229479-e8cef80c-1f78-47c1-b64b-1bc41617d2cc.png)
+
+## Crypto Values
+========
+## CryptoValues is an app created with React/Redux where you can join to see the values of the cryptocoins.
+
+=========
+
+# Build with
+- HTML/SCSS
+- React.JS
+- Redux
+- Jest
+
+# Live
+
+[Live version ](https://cryptocoin-xjokeer.netlify.app/)
+
+# Video description
+[Video](https://www.loom.com/share/543ac196b513484cbdd08dfb41853dbb)
+# Available Scripts
 
 In the project directory, you can run:
 
