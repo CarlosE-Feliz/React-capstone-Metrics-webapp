@@ -1,12 +1,11 @@
-/* eslint-disable no-unused-vars */
-import { render, fireEvent, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import store from '../../redux/store';
 import Home from '../../components/Home';
-import { Data } from './MockHTML';
+import Data from './MockHTML';
 
 describe('Test button Homes', () => {
   it('snapshot test', async () => {
