@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test button Homes snapshot test 1`] = `
+<div
+  className="grid"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="button"
+  tabIndex={0}
+/>
+`;
+
+exports[`Test button Homes test click 1`] = `
+<div
+  class="header cardprops"
+  id="1"
+>
+  BTC
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<a
+  active="true"
+  exact="true"
+  href="/"
+  onClick={[Function]}
+>
+  <a
+    className="back"
+    exact={true}
+    href="/"
+    id="back"
+    onClick={[Function]}
+  >
+     ‹
+  </a>
+</a>
+`;
